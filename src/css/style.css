@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .top_container {
     height: 5vh;
@@ -27,4 +28,11 @@
 
 .instructions {
     margin-left: 20px;
+}
+
+.body-center {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 5px solid black;
+    border-radius: 10px;
 }
