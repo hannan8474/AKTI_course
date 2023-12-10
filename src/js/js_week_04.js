@@ -3,7 +3,6 @@ function myfunction1(arr1, display_text)
     for (i = 0; i < arr1.length; i++)
     display_text += arr1[i] + "<br>";
     document.getElementById("content1").innerHTML = display_text; // it'll give all elements of the array
-    document.getElementsByClassName("bg-color").style.backgroundColor = red;
 } 
 function myfunction2(arr1)
 {
