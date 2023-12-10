@@ -30,9 +30,12 @@
     margin-left: 20px;
 }
 
-.body-center {
+/* .body-center {
     display: grid;
     grid-template-columns: auto auto auto;
     border: 5px solid black;
     border-radius: 10px;
 }
+#paragraph1, #content1 {
+    display: block;
+} */
