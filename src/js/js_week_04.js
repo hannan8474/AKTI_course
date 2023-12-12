@@ -62,15 +62,19 @@ document.getElementById("heading5").addEventListener("mouseover", function(){
 document.getElementById("heading6").addEventListener("mouseover", function(){
     myfunction7(arr1);
 });
-// arr1.splice(2, 0, "hannan", "faizan"); //splice(at index this, without removing Any Element, add this, add this). To add element at any index
-// for (i = 0; i < arr1.length; i++)
-//     console.log(arr1[i]);
-// let obj = {
-//     name: "Abdul-Hannan",
-//     email: "abdul-hannan@gmail.com",
-//     phone: 3190619346,
-// }
-// console.log(obj);
-// console.log(Object.keys(obj));//Now it has become an array, we can access it through indexes.
-// for (i = 0; i < 3; i++)
-//     console.log(Object.values(obj)[i]);
+arr1.splice(2, 0, "hannan", "faizan"); //splice(at index this, without removing Any Element, add this, add this). To add element at any index
+for (i = 0; i < arr1.length; i++)
+    console.log(arr1[i]);
+let obj = {
+    name: "Abdul-Hannan",
+    email: "abdul-hannan@gmail.com",
+    phone: 3190619346,
+};
+console.log(obj); //it'll give the object
+console.log(Object.keys(obj)); //it'll give the object keys only by using Object.values we can get the attributes also
+
+let arr2 = [1, 2, 3, "rehman", "rehman@gmail.com", "54", 64];
+for (i = 0; i < arr2.length; i++)
+{
+    console.log(arr2[i]);
+}
